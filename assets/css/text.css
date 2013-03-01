@@ -81,5 +81,6 @@ figure {
 }
 @font-face {
   font-family: madfont;
-  src: url('MADFONT_.ttf');
+  src: url('MADFONT_.TTF'),
+       url('MADFONT_.eot');
 }

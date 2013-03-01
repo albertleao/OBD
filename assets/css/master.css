@@ -9,13 +9,7 @@ body {
   color: #333;
 }
 
-h1 {
-  background: #eee url(../images/h1.png) no-repeat right center;
-  border-bottom: 1px solid #ccc;
-  padding: 10px 90px 10px 15px;
-  text-shadow: #fff 0 1px 0;
-}
-
+h1,
 h2,
 h3,
 h4,
@@ -25,11 +19,11 @@ h6 {
 }
 
 a {
-  color: #06c;
+    color: inherit;
 }
 
 a:hover {
-  color: #c60;
+    color: inherit;
 }
 
 small {
