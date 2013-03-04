@@ -6,7 +6,11 @@
 
   <br />
 
-  <a href="/locations/milton">Milton, Georgia</a>
+  <a href="/locations/milton">
+    Milton, Georgia<br />
+    12650 Crabapple Rd<br />
+    678-624-1090
+  </a>
 
 </div>
 
@@ -17,7 +21,12 @@
 
   <br />
 
-  <a href="/locations/brookhaven">Brookhaven, Georgia</a>
+  <a href="/locations/brookhaven">
+    Brookhaven, Georgia<br />
+    705 Town Boulevard, Suite Q380<br />
+    404-816-5739
+
+  </a>
 
 </div>
 
