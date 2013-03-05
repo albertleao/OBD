@@ -1,28 +1,3 @@
-<body>
-
-<div class="container_12 content">
-
-  <div class="grid_4" id="obd_logo_container">
-    <img src="assets/images/obd logo.png" id="obd_logo" />
-  </div>
-
-  <div class="grid_8 navigation_bar">
-    <ul class="navigation_list">
-      <li><a href="/">Home</a></li>
-      <li><a href="/menu">Menu</a></li>
-      <li><a href="/events">Events</a></li>
-      <li><a href="/locations">Locations</a></li>
-    </ul>
-    <div class="clear"></div>
-
-    <h1 id="obd_title">
-      Olde Blind Dog Irish Pub
-    </h1>
-  </div>
-
-
-<div class="clear"></div>
-
 <div class="grid_4" id="obd_main_times">
   <a id="main_times_title">Open Daily</a>
   <br />
@@ -46,19 +21,17 @@
 
 <div class="grid_8">
 
-<div id="s3slider">
-    <ul id="s3sliderContent">
-        <li class="s3sliderImage">
-            <img src="#">
-            <span>Your text comes here</span>
-        </li>
-        <li class="s3sliderImage">
-            <img src="#">
-            <span>Your text comes here</span>
-        </li>
-        <div class="clear s3sliderImage"></div>
-    </ul>
+<div style="float: left; font-family: madfont; font-size: 18px; color: gold;">
+  St. Patrick's Day Brookhaven, GA
+  <img src="/assets/images/obd_spd_brookflyer.png" style="float: left;" />
 </div>
+<br />
+<div style="float: left; font-family: madfont; font-size: 18px;color: gold;">
+  St. Patrick's Milton, GA
+  <img src="/assets/images/obd_spd_miltonflyer.png" style="float: left; " />
+</div>
+
+
 
 </div>
 

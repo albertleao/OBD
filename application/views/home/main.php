@@ -24,15 +24,31 @@
   <div id="s3slider">
     <ul id="s3sliderContent">
         <li class="s3sliderImage">
-            <img src="/assets/images/_MG_1697-1-TL-min.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/MARKETING/0051.jpg" class="fp_image">
             <span>Your text comes here</span>
         </li>
         <li class="s3sliderImage">
-            <img src="/assets/images/brookhavenbar-min.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/MARKETING/0059.jpg" class="fp_image">
             <span>Your text comes here</span>
         </li>
         <li class="s3sliderImage">
-            <img src="/assets/images/5after9_old-blind_630x420.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/MARKETING/0193.jpg" class="fp_image">
+            <span>Your text comes here</span>
+        </li>
+        <li class="s3sliderImage">
+            <img src="/assets/images/menuphotos/MARKETING/0143.jpg" class="fp_image">
+            <span>Your text comes here</span>
+        </li>
+        <li class="s3sliderImage">
+            <img src="/assets/images/menuphotos/MARKETING/0003.jpg" class="fp_image">
+            <span>Your text comes here</span>
+        </li>
+        <li class="s3sliderImage">
+            <img src="/assets/images/menuphotos/MARKETING/0186.jpg" class="fp_image">
+            <span>Your text comes here</span>
+        </li>
+        <li class="s3sliderImage">
+            <img src="/assets/images/menuphotos/Appetizer/IMG_2099.jpg" class="fp_image">
             <span>Your text comes here</span>
         </li>
         <div class="clear s3sliderImage"></div>
@@ -61,7 +77,9 @@ Call it Celtic charm or just good ole' faithful food and fun, Olde Blind Dog Iri
   <br />
 
   <p id="p_title">Join the Kennel Club!</p>
-  <img src="/assets/images/subscribe.jpg" id="subscribe"/>
+  <a href="http://visitor.r20.constantcontact.com/manage/optin/ea?v=001MsaghC2nU2OZXFcbDsSU32zmybm5Y7Xy4rSTU5UkZdlHYKhGbvcDIiLFfWHkIBJGY7Q5zYwvgSM%3D">
+    <img src="/assets/images/subscribe.jpg" id="subscribe"/>
+  </a>
   <div class="clear"></div>
   <a id="p">Sign up for the pub's email newsletter to receive the latest news and special offers from the Olde Blind Dog.</p>
   <br />
@@ -69,7 +87,10 @@ Call it Celtic charm or just good ole' faithful food and fun, Olde Blind Dog Iri
 </div>
 
 <div class="grid_8" id="stpattysbanner">
-St. Patricks Day Weekend
+<a href="/events">St. Patricks Day Weekend (Info)</a>
+<a href="/events">
+  <img src="/assets/images/stpattysdaybanner.jpg" id="banner" />
+</a>
 
 </div>
 
@@ -82,7 +103,7 @@ St. Patricks Day Weekend
 <script>
 $(document).ready(function() { 
     $('#s3slider').s3Slider({
-        timeOut: 6000
+        timeOut: 5000
     });
 });
 </script>
