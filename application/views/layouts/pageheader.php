@@ -4,7 +4,7 @@
 
   <div class="grid_4" id="obd_logo_container">
     <a href="/">
-      <img src="/assets/images/obd logo.png" id="obd_logo" />
+      <img src="/assets/images/obd logos.png" id="obd_logo" />
     </a>
   </div>
 

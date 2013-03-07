@@ -24,31 +24,31 @@
   <div id="s3slider">
     <ul id="s3sliderContent">
         <li class="s3sliderImage">
-            <img src="/assets/images/menuphotos/MARKETING/0051.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/MARKETING/0051s.jpg" class="fp_image">
             <span>Short Rib Quesadilla</span>
         </li>
         <li class="s3sliderImage">
-            <img src="/assets/images/menuphotos/MARKETING/0059.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/MARKETING/0059s.jpg" class="fp_image">
             <span>Knife and Fork Burger</span>
         </li>
         <li class="s3sliderImage">
-            <img src="/assets/images/menuphotos/MARKETING/0193.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/MARKETING/0193s.jpg" class="fp_image">
             <span>Bread Pudding</span>
         </li>
         <li class="s3sliderImage">
-            <img src="/assets/images/menuphotos/MARKETING/0143.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/MARKETING/0143s.jpg" class="fp_image">
             <span>Roasted Vegetable Pasta</span>
         </li>
         <li class="s3sliderImage">
-            <img src="/assets/images/menuphotos/MARKETING/0003.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/MARKETING/0003s.jpg" class="fp_image">
             <span>Flying Chicken Wings</span>
         </li>
         <li class="s3sliderImage">
-            <img src="/assets/images/menuphotos/MARKETING/0186.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/MARKETING/0186s.jpg" class="fp_image">
             <span>Chocolate Brownie</span>
         </li>
         <li class="s3sliderImage">
-            <img src="/assets/images/menuphotos/Appetizer/IMG_2099.jpg" class="fp_image">
+            <img src="/assets/images/menuphotos/Appetizer/IMG_2099s.jpg" class="fp_image">
             <span>Tabasco Deep Fried Pickles</span>
         </li>
         <div class="clear s3sliderImage"></div>
@@ -103,7 +103,7 @@ Call it Celtic charm or just good ole' faithful food and fun, Olde Blind Dog Iri
 <script>
 $(document).ready(function() { 
     $('#s3slider').s3Slider({
-        timeOut: 5000
+        timeOut: 6000
     });
 });
 </script>

@@ -1,7 +1,7 @@
 <div class="grid_6 location_guide">
 
   <a href="/locations/milton">
-    <img src="/assets/images/brookhavenbar-min.jpg" />
+    <img src="/assets/images/54s.jpg" />
   </a>
 
   <br />
