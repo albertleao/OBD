@@ -3,7 +3,9 @@
 <div class="container_12 content">
 
   <div class="grid_4" id="obd_logo_container">
-    <img src="/assets/images/obd logo.png" id="obd_logo" />
+    <a href="/">
+      <img src="/assets/images/obd logo.png" id="obd_logo" />
+    </a>
   </div>
 
   <div class="grid_8 navigation_bar">
@@ -16,7 +18,7 @@
     <div class="clear"></div>
 
     <h1 id="obd_title">
-      Olde Blind Dog<span style="font-family: helvetica; font-size: 13px;">&reg;</span> Irish Pub
+      Olde Blind Dog<span style="font-family: helvetica; font-size: 13px; vertical-align: top;">&reg;</span> Irish Pub
     </h1>
   </div>
 

@@ -25,31 +25,31 @@
     <ul id="s3sliderContent">
         <li class="s3sliderImage">
             <img src="/assets/images/menuphotos/MARKETING/0051.jpg" class="fp_image">
-            <span>Your text comes here</span>
+            <span>Short Rib Quesadilla</span>
         </li>
         <li class="s3sliderImage">
             <img src="/assets/images/menuphotos/MARKETING/0059.jpg" class="fp_image">
-            <span>Your text comes here</span>
+            <span>Knife and Fork Burger</span>
         </li>
         <li class="s3sliderImage">
             <img src="/assets/images/menuphotos/MARKETING/0193.jpg" class="fp_image">
-            <span>Your text comes here</span>
+            <span>Bread Pudding</span>
         </li>
         <li class="s3sliderImage">
             <img src="/assets/images/menuphotos/MARKETING/0143.jpg" class="fp_image">
-            <span>Your text comes here</span>
+            <span>Roasted Vegetable Pasta</span>
         </li>
         <li class="s3sliderImage">
             <img src="/assets/images/menuphotos/MARKETING/0003.jpg" class="fp_image">
-            <span>Your text comes here</span>
+            <span>Flying Chicken Wings</span>
         </li>
         <li class="s3sliderImage">
             <img src="/assets/images/menuphotos/MARKETING/0186.jpg" class="fp_image">
-            <span>Your text comes here</span>
+            <span>Chocolate Brownie</span>
         </li>
         <li class="s3sliderImage">
             <img src="/assets/images/menuphotos/Appetizer/IMG_2099.jpg" class="fp_image">
-            <span>Your text comes here</span>
+            <span>Tabasco Deep Fried Pickles</span>
         </li>
         <div class="clear s3sliderImage"></div>
     </ul>
