@@ -4,11 +4,10 @@
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-<meta name="description" content="Olde Blind Dog Irish Pub" />
 <title>Olde Blind Dog Irish Pub</title>
+<meta name="description" content="Featuring upscale pub food coupled with perfect pints and stout spirits, Olde Blind Dog offers contemporary tastes rich in tradition. Locations in Milton, GA and Brookhaven, GA" />
 <link rel="stylesheet" href="/assets/css/master.css" />
 <link rel="stylesheet" href="/assets/css/main.css" />
-
 <noscript>
   <link rel="stylesheet" href="/assets/css/mobile.min.css" />
 </noscript>
