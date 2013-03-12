@@ -41,14 +41,19 @@ body {
     list-style-type: none;
     font-size: 20px;
     vertical-align: middle;
-    
 }
 
-.navigation_list li {
+.navigation_list li{
     display: inline;
     margin-left: 15px;
     margin-right: 15px;
-    
+    text-decoration: none;
+}
+
+
+
+.navigation_list li a {
+    text-decoration: none;
 }
 
 #obd_title {
@@ -110,7 +115,7 @@ body {
 
 #p_title {
     color: #A00000;
-    font-size: 25px;
+    font-size: 24px;
     font-family: georgia;
     font-style: italic;
 }
@@ -136,6 +141,10 @@ body {
     text-align: center;
     font-size: 20px;
     font-family: madfont;
+}
+
+#banner {
+    width: 100%;
 }
 
 /* LOCATIONS PAGE
@@ -209,4 +218,4 @@ body {
  
 .clear {
     clear: both;
-} 
+}
