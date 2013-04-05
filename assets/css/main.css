@@ -147,8 +147,33 @@ body {
     width: 100%;
 }
 
+.front_page_location {
+    float: left;
+    color: gold;
+    font-size: 15px;
+    width: 50%    
+}
+
+.footer_bar {
+    text-align: center;
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-top-style: double;
+    border-top-color: gold;
+    padding: 23px 0px;
+}
+
 /* LOCATIONS PAGE
 ======================================================================================================*/
+
+.location_description {
+    font-size: 19px;
+    margin-top: 10px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+}
 
 .location_guide {
     margin-top: 20px;
@@ -156,7 +181,7 @@ body {
     color: gold;
     font-family: madfont;
     letter-spacing: 2px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .location_guide img {
@@ -166,7 +191,7 @@ body {
 }
 
 #directions_container {
-    font-size: 3em;
+    font-size: 2.2em;
     color: gold;
     text-align: center;
     font-family: georgia;
