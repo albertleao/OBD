@@ -196,6 +196,22 @@ body {
     text-align: center;
     font-family: georgia;
 }
+/* PAGE FOOTER
+======================================================================================================*/
+
+#pagefooter {
+    position: fixed;
+    bottom: 0px;
+    left: 40%;
+    width: 20%;
+}
+
+#footer_navigation {
+    border-top: 1px solid #191919;
+    color: #f0f0f0;
+    width: 100%;
+}
+
 
 /* S3 SLIDER
 ======================================================================================================*/

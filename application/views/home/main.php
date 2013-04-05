@@ -58,10 +58,10 @@
 </div>
 
 <div class="grid_4">
-<a id="p_title">...More Than a "Wee Bit" of Ireland</a><br /><br />
-<a id="p">
-Call it Celtic charm or just good ole' faithful food and fun, Olde Blind Dog Irish Pub is gaining a loyal following as a unique neighborhood gathering place. Featuring upscale pub food coupled with perfect pints and stout spirits, Olde Blind Dog offers contemporary tastes rich in tradition.
-</a>
+  <a id="p_title">...More Than a "Wee Bit" of Ireland</a><br /><br />
+  <a id="p">
+  Call it Celtic charm or just good ole' faithful food and fun, Olde Blind Dog Irish Pub is gaining a loyal following as a unique neighborhood gathering place. Featuring upscale pub food coupled with perfect pints and stout spirits, Olde Blind Dog offers contemporary tastes rich in tradition.
+  </a>
 </div>
 
   <div class="grid_8 footer_bar">
@@ -80,14 +80,6 @@ Call it Celtic charm or just good ole' faithful food and fun, Olde Blind Dog Iri
 
 
   </div>
-
-</div>
-
-
-</div><!-- end of container 12 -->
-
-</body>
-</html>
 
 <script>
 $(document).ready(function() { 

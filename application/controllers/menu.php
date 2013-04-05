@@ -6,5 +6,6 @@ class Menu extends CI_Controller {
 	{
 		$this->load->view("meta/pagehead");
 		$this->load->view('menu/main');
+		$this->load->view("layouts/pagefooter");
 	}
 }

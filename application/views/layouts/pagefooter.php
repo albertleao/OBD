@@ -1,6 +1,8 @@
+<div class="clear"></div>
+
 <div id="pagefooter">
 	<ul id="footer_navigation">
-		<li>Application for hire</li>
+		<li><a href="/application">Application for hire</a></li>
 	</ul>
 </div>
 

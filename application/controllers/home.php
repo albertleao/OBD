@@ -7,5 +7,6 @@ class Home extends CI_Controller {
 		$this->load->view("meta/pagehead");
 		$this->load->view("layouts/pageheader");
 		$this->load->view('home/main');
+		$this->load->view("layouts/pagefooter");
 	}
 }
