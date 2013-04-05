@@ -7,12 +7,31 @@ Brookhaven
 Atlanta, GA 30319
 <br />
 404-816-5739
-
+<hr>
+	<div id="locations_hours">
+		Hours
+		<br />
+		Sunday-Wednesday
+		<br />
+		11am - Midnight
+		<br />
+		Thursday - Saturday
+		<br />
+		11am - 2am
+		<br />
+		Express Lunch(M-F)
+		<br />
+		11am - 3pm
+		<br />
+		Sunday Brunch
+		<br />
+		11am - 3pm
+	</div>
 </div>
 
 <div class="grid_6">
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=705+Town+Boulevard,+Suite+Q380+Atlanta,+GA+30319&amp;layer=c&amp;sll=33.869188,-84.334634&amp;cbp=13,332.19,,0,9.8&amp;cbll=33.869312,-84.334236&amp;hl=en&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=705+Town+Blvd+q380,+Atlanta,+DeKalb,+Georgia+30319&amp;ll=33.869188,-84.334634&amp;spn=0.006396,0.011233&amp;t=h&amp;z=14&amp;panoid=r1YsL5JS_gEIIn32nE3E9g&amp;source=embed&amp;output=svembed"></iframe><br /><small><a href="https://maps.google.com/maps?q=705+Town+Boulevard,+Suite+Q380+Atlanta,+GA+30319&amp;layer=c&amp;sll=33.869188,-84.334634&amp;cbp=13,332.19,,0,9.8&amp;cbll=33.869312,-84.334236&amp;hl=en&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=705+Town+Blvd+q380,+Atlanta,+DeKalb,+Georgia+30319&amp;ll=33.869188,-84.334634&amp;spn=0.006396,0.011233&amp;t=h&amp;z=14&amp;panoid=r1YsL5JS_gEIIn32nE3E9g&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=705+Town+Boulevard,+Brookhaven,+GA&amp;aq=0&amp;oq=705+&amp;sll=32.678125,-83.178297&amp;sspn=7.662463,10.030518&amp;ie=UTF8&amp;hq=&amp;hnear=705+Town+Blvd,+Brookhaven,+DeKalb,+Georgia+30319&amp;t=m&amp;z=14&amp;ll=33.870082,-84.337158&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=705+Town+Boulevard,+Brookhaven,+GA&amp;aq=0&amp;oq=705+&amp;sll=32.678125,-83.178297&amp;sspn=7.662463,10.030518&amp;ie=UTF8&amp;hq=&amp;hnear=705+Town+Blvd,+Brookhaven,+DeKalb,+Georgia+30319&amp;t=m&amp;z=14&amp;ll=33.870082,-84.337158" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 </div>
 

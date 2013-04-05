@@ -7,6 +7,30 @@ Milton
 Milton, GA 30004
 <br />
 678-624-1090
+<hr>
+	<div id="locations_hours">
+		Hours
+		<br />
+		Sunday - Monday
+		<br />
+		11am - 11pm
+		<br />
+		Tuesday - Thursday
+		<br />
+		11am - Midnight
+		<br />
+		Friday - Saturday
+		<br />
+		11am - 2am 
+		<br />
+		Express Lunch(M-F)
+		<br />
+		11am - 3pm
+		<br />
+		Sunday Brunch
+		<br />
+		11am - 3pm
+	</div>
 
 </div>
 

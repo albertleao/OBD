@@ -1,22 +1,22 @@
 <div class="grid_4" id="obd_main_times">
-  <a id="main_times_title">Open Daily</a>
+  <a class="main_times_type">
+    Contact us: <br />
+    gkokoszka@oldeblinddog.com
+  </p>
+  <a id="p_title">Connect With Us!</a><br />
+  <a href="https://www.facebook.com/oldeblinddog">
+    <img src="/assets/images/find-us-on-facebook.png" class="connect_button" />
+  </a>
   <br />
-  Sunday - Monday: 11 am - 11 pm
+
+  <p id="p_title">Join the Kennel Club!</p>
+  <a href="http://visitor.r20.constantcontact.com/manage/optin/ea?v=001MsaghC2nU2OZXFcbDsSU32zmybm5Y7Xy4rSTU5UkZdlHYKhGbvcDIiLFfWHkIBJGY7Q5zYwvgSM%3D">
+    <img src="/assets/images/subscribe.jpg" id="subscribe"/>
+  </a>
+  <div class="clear"></div>
+  <a id="p">Sign up for the pub's email newsletter to receive the latest news and special offers from the Olde Blind Dog.</p>
   <br />
-  Tuesday - Thursday: 11 am - 12 am
-  <br />
-  Friday - Saturday: 11 am - 2 am
-  <br />
-  <br />
-  <a id="main_times_always_available">Our Full Menu Is Always Available</a>
-  <br />
-  <a class="main_times_types">Express Lunch</a>
-  <br />
-  Monday - Friday: 11 am - 3 pm
-  <br />
-  <a class="main_times_types">Sunday Brunch</a>
-  <br />
-  11 am - 3 pm
+
 </div>
 
 <div class="grid_4">
@@ -64,36 +64,22 @@ Call it Celtic charm or just good ole' faithful food and fun, Olde Blind Dog Iri
 </a>
 </div>
 
+  <div class="grid_8 footer_bar">
 
-<!-- GRID BREAK -->
-<div class="clear"></div>
+    <div class="front_page_location">
+      Milton, GA<br />
+      12650 Crabapple Rd, 30004<br />
+      678-624-1090
+    </div>
 
-<div class="grid_4" id="obd_main_times">
-  <a class="main_times_type">
-    Contact us: <br />
-    gkokoszka@oldeblinddog.com
-  </p>
-  <a id="p_title">Connect With Us!</a><br />
-  <a href="https://www.facebook.com/oldeblinddog">
-    <img src="/assets/images/find-us-on-facebook.png" class="connect_button" />
-  </a>
-  <br />
+    <div class="front_page_location">
+      Brookhaven, GA<br />
+      705 Town Boulevard, Suite Q380, 30319<br />
+      404-816-5739
+    </div>
 
-  <p id="p_title">Join the Kennel Club!</p>
-  <a href="http://visitor.r20.constantcontact.com/manage/optin/ea?v=001MsaghC2nU2OZXFcbDsSU32zmybm5Y7Xy4rSTU5UkZdlHYKhGbvcDIiLFfWHkIBJGY7Q5zYwvgSM%3D">
-    <img src="/assets/images/subscribe.jpg" id="subscribe"/>
-  </a>
-  <div class="clear"></div>
-  <a id="p">Sign up for the pub's email newsletter to receive the latest news and special offers from the Olde Blind Dog.</p>
-  <br />
 
-</div>
-
-<div class="grid_8" id="stpattysbanner">
-<a href="/events">St. Patricks Day Weekend (Info)</a>
-<a href="/events">
-  <img src="/assets/images/stpattysdaybanner.jpg" id="banner" />
-</a>
+  </div>
 
 </div>
 
