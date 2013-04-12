@@ -196,20 +196,39 @@ body {
     text-align: center;
     font-family: georgia;
 }
+/* APPLICATION
+======================================================================================================*/
+.application_form {
+    width: 100%;
+}
+
+.application_form input[type=text] {
+    width: 60%;
+}
+
+/* Events page
+======================================================================================================*/
+
+.event {
+    float: left;
+    font-family: madfont;
+    font-size: 22px;
+    color: gold;
+}
+
+.event p {
+    font-family: helvetica;
+}
+
 /* PAGE FOOTER
 ======================================================================================================*/
 
 #pagefooter {
-    position: fixed;
-    bottom: 0px;
-    left: 40%;
-    width: 20%;
+    border-top: 1px solid #191919;   
 }
 
 #footer_navigation {
-    border-top: 1px solid #191919;
     color: #f0f0f0;
-    width: 100%;
 }
 
 
