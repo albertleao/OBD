@@ -1,7 +1,7 @@
 <div class="grid_4" id="obd_main_times">
   <a class="main_times_type">
     Contact us: <br />
-    gkokoszka@oldeblinddog.com
+    info@oldeblinddog.com
   </p>
   <a id="p_title">Connect With Us!</a><br />
   <a href="https://www.facebook.com/oldeblinddog">
@@ -15,7 +15,15 @@
   </a>
   <div class="clear"></div>
   <a id="p">Sign up for the pub's email newsletter to receive the latest news and special offers from the Olde Blind Dog.</p>
-  <br />
+  <div class="clear"></div>
+  
+  <p style="font-size: 12px; text-align: center;">
+    Join the Team!
+    <br />
+    <a href="/apply_hire">
+      Think you have what it takes? Apply here to become a member of one of the best restaurant teams in the metro area.
+    </a>
+  <p>
 
 </div>
 
