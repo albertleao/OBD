@@ -3,7 +3,7 @@
 
 	<div class="event">
 	
-		St. Practice day. April 17th.
+		St. Practice Day – April 17th.
 
 		<p>
 			At Olde Blind Dog we never stop practicing for St. Patrick’s Day, because the best way to acquire the perfect celebration skills is to repeat them over and over. So join us on the 17th of every 	month for great Irish fun (we're giving you 11 chances to get this right). All you need to participate is an official Countdown Tour T-Shirt (ask your server for pricing and details). Then wear 	your t-shirt every time the calendar hits 17 and enjoy great drink specials, free giveaways and more.
@@ -76,6 +76,34 @@
 		<p>
 			Seating is limited so call us at 678-624-1090 to make your reservation.
 		</p>
+	</div>
+
+	<hr>
+
+	<div class="event">
+	
+		Send-off Party and Fundraiser for Megan Hill – April 25	
+
+		<p>
+			Join us on the patio April 25 as we host a proper Irish send-off (and hopefully raise a few bucks)  for U.S. Olympic Bobsledder Megan Hill. Festivities begin at 5:30 p.m.
+		</p>
+
+		<p>
+			Megan (from Woodstock, Ga.) is a former gymnast and track and field athlete at Auburn. She is training full-time to keep her spot as a driver on the women’s U.S. National Bobsled team and to compete in the 2014 and 2018 Winter Olympics.
+		</p>
+
+		<p>
+			<b>George Dickel Rye:</b> Is 95 percent rye and 5 percent malted barley that is distilled and then aged in new charred oak barrels for at least five years. It carries aromas of toasty oak, spicy rye, citrus, pineapple, caramel, cinnamon, tangy cherry and menthol. The palate shows the aromas in a mild evolution of flavors that is initially sweet, with hints of fruit and builds to sapid oak nuance with vanilla, spice and caramel leading all the way through. The finish gently dawdles while quietly revealing roasted nuts, fennel, sassafras and camphor.
+		</p>
+
+		<p>
+			To help Megan raise money for training expenses, we will raffle off a $100 Olde Blind Dog gift card.  Buy a raffle ticket and get $4 draft pints and 20 percent off appetizers during the send-off party
+		</p>
+
+		<p>
+			Megan will be on hand to sign autographs, take pictures and talk to you about her bobsledding experiences. See you on the patio April 25!  
+		</p>
+
 	</div>
 
 
