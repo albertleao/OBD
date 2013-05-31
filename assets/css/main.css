@@ -235,6 +235,25 @@ body {
 /* Admin
 ======================================================================================================*/
 
+#event_form textarea{
+    width: 100%;
+    height: 300px;
+    resize: none;
+}
+
+#event_form input {
+    padding: 10px;
+}
+
+#admin_events {
+    width: 80%;
+    font-size: 16px;
+}
+
+#admin_events th {
+    border-bottom: 1px solid
+}
+
 
 /* S3 SLIDER
 ======================================================================================================*/

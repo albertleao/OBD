@@ -6,7 +6,7 @@
 	<h1>
 		Events
 	</h1>
-	<table>
+	<table id="admin_events">
 		<tr>
 			<th>Event Title</th>
 			<th>Event Description</th>

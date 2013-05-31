@@ -3,7 +3,11 @@
 </div>
 
 <div class="grid_10">
-	<?= form_open("admin/save_event"); ?>
+
+	<?
+		$params = array("id" => "event_form");
+		echo form_open("admin/save_event", $params);
+	?>
 
 		<? if(@$event){ ?>
 

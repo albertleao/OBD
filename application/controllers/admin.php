@@ -105,7 +105,7 @@ class Admin extends CI_Controller {
 
 	public function save_event() {
 
-		$this->load->library("form_validation");
+		$this->load->library("form_validation"); 
 
 		$this->form_validation->set_rules("title", "Event Title", "");
 		$this->form_validation->set_rules("description", "Event Description", "");
@@ -124,12 +124,14 @@ class Admin extends CI_Controller {
 			if($id){
 
 				$this->events_model->update_event($title, $description, $date, $id);
+				$this->events();
 
 			}
 
 			else {
 
 				$this->events_model->create_event($title, $description, $date);
+				$this->events();
 				
 			}
 
@@ -137,7 +139,7 @@ class Admin extends CI_Controller {
 
 		else {
 
-			$this->events();
+			$this->event();
 
 		}
 
