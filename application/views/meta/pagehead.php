@@ -8,6 +8,7 @@
 <meta name="description" content="Featuring upscale pub food coupled with perfect pints and stout spirits, Olde Blind Dog offers contemporary tastes rich in tradition. Locations in Milton, GA and Brookhaven, GA" />
 <link rel="stylesheet" href="/assets/css/master.css" />
 <link rel="stylesheet" href="/assets/css/main.css" />
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/black-tie/jquery-ui.css" />
 <noscript>
   <link rel="stylesheet" href="/assets/css/mobile.min.css" />
 </noscript>
