@@ -21,7 +21,7 @@
 					<?= character_limiter($event->description, 20) ?>
 				</td>
 				<td><?= $event->date ?></td>
-				<td><a href="/admin/update_event?id=<?= $event->id ?>">Edit This Event</a></td>
+				<td><a href="/admin/event?id=<?= $event->id ?>">Edit This Event</a></td>
 			</tr>
 
 		<? } ?>

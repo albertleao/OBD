@@ -63,6 +63,12 @@ class Admin extends CI_Controller {
 
 		}
 
+		else {
+
+			redirect("/admin");
+
+		}
+
 	}
 
 	public function events() {
@@ -79,7 +85,13 @@ class Admin extends CI_Controller {
 			$this->load->view('admin/events', $data);
 			$this->load->view("layouts/pagefooter");
 
-		}		
+		}
+
+		else {
+
+			redirect("/admin");
+
+		}
 
 	}
 
@@ -101,45 +113,83 @@ class Admin extends CI_Controller {
 
 		}
 
+		else {
+
+			redirect("/admin");
+
+		}
+
 	}
 
 	public function save_event() {
 
-		$this->load->library("form_validation"); 
+		if($this->is_admin()){
 
-		$this->form_validation->set_rules("title", "Event Title", "");
-		$this->form_validation->set_rules("description", "Event Description", "");
-		$this->form_validation->set_rules("date", "Event Date", "");
-		$this->form_validation->set_rules("current_event", "Current Event", "");
+			$this->load->library("form_validation"); 
 
-		if($this->form_validation->run()){
+			$this->form_validation->set_rules("title", "Event Title", "");
+			$this->form_validation->set_rules("description", "Event Description", "");
+			$this->form_validation->set_rules("date", "Event Date", "");
+			$this->form_validation->set_rules("current_event", "Current Event", "");
 
-			$title = $this->input->post("title");
-			$description = $this->input->post("description");
-			$date = $this->input->post("date");
-			$id = $this->input->post("current_event");
+			if($this->form_validation->run()){
 
-			$this->load->model("events_model");
+				$title = $this->input->post("title");
+				$description = $this->input->post("description");
+				$date = $this->input->post("date");
+				$id = $this->input->post("current_event");
 
-			if($id){
+				$this->load->model("events_model");
 
-				$this->events_model->update_event($title, $description, $date, $id);
-				$this->events();
+				if($id){
+
+					$this->events_model->update_event($title, $description, $date, $id);
+					redirect("/admin/events");
+
+				}
+
+				else {
+
+					$this->events_model->create_event($title, $description, $date);
+					redirect("/admin/events");
+					
+				}
 
 			}
 
 			else {
 
-				$this->events_model->create_event($title, $description, $date);
-				$this->events();
-				
+				$this->event();
+
 			}
 
 		}
 
 		else {
 
-			$this->event();
+			redirect("/admin");
+
+		}
+
+
+	}
+
+	public function delete_event() {
+
+		if($this->is_admin()){
+
+			$this->load->model("events_model");
+			$id = $this->input->get("id");
+
+			$this->events_model->delete_event($id);
+
+			$this->events();
+
+		}
+
+		else {
+
+			redirect("/admin");
 
 		}
 

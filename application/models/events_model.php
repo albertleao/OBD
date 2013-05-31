@@ -9,7 +9,7 @@ class Events_model extends CI_Model {
     
     public function events() {
 
-        $sql = "SELECT * FROM events";
+        $sql = "SELECT * FROM events WHERE active = 1";
 
         return $this->db->query($sql);
 
@@ -25,11 +25,13 @@ class Events_model extends CI_Model {
 
     public function create_event($title, $description, $date) {
 
+        $mysqldate = date( 'Y-m-d H:i:s', strtotime($date) );
+
         $sql = "INSERT INTO `events`
                 (`title`, `description`, `date`)
                 VALUES
                 (?, ?, ?)";
-        $this->db->query($sql, array($title, $description, $date));
+        $this->db->query($sql, array($title, $description, $mysqldate));
 
     }
 
@@ -47,9 +49,19 @@ class Events_model extends CI_Model {
 
     }
 
+    public function delete_event($id) {
+
+        $sql = "UPDATE `events`
+                SET
+                `active` = 0
+                WHERE `id` = ?";
+        $this->db->query($sql, $id);
+
+    }
+
     public function future_events() {
 
-        $sql = "SELECT * FROM events WHERE `date` >= CURDATE()";
+        $sql = "SELECT * FROM events WHERE `date` >= CURDATE() AND active = 1";
 
         return $this->db->query($sql);
 
