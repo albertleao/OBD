@@ -83,30 +83,20 @@ class Admin extends CI_Controller {
 
 	}
 
-	public function update_event() {
+	public function event() {
 
 		if($this->is_admin()) {
 
-			$this->load->model("events_model");
 			$id = $this->input->get("id");
-			$data['event'] = $this->events_model->event($id);				
 
+			if($id) {
+				$this->load->model("events_model");
+				$data['event'] = $this->events_model->event($id);				
+			}
+				$data['new'] = TRUE;
 			$this->load->view("meta/pagehead");
 			$this->load->view("layouts/pageheader");
-			$this->load->view('admin/update_event', $data);
-			$this->load->view("layouts/pagefooter");
-
-		}
-
-	}
-
-	public function new_event() {
-
-		if($this->is_admin()) {
-			
-			$this->load->view("meta/pagehead");
-			$this->load->view("layouts/pageheader");
-			$this->load->view('admin/new_event');
+			$this->load->view('admin/event', $data);
 			$this->load->view("layouts/pagefooter");
 
 		}

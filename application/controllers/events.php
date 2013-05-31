@@ -6,7 +6,7 @@ class Events extends CI_Controller {
 
 		$this->load->model("events_model");
 
-		$data['events'] = $this->events_model->events();
+		$data['events'] = $this->events_model->future_events();
 
 		$this->load->view("meta/pagehead");
 		$this->load->view("layouts/pageheader");
