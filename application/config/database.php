@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['hostname'] = '68.178.142.110';
+$db['default']['username'] = 'obddbuser';
+$db['default']['password'] = 'OBDdb20!3';
+$db['default']['database'] = 'obddbuser';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

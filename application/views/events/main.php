@@ -12,11 +12,7 @@
 		<p>
 			Megan (from Woodstock, Ga.) is a former gymnast and track and field athlete at Auburn. She is training full-time to keep her spot as a driver on the women’s U.S. National Bobsled team and to compete in the 2014 and 2018 Winter Olympics.
 		</p>
-
-		<p>
-			<b>George Dickel Rye:</b> Is 95 percent rye and 5 percent malted barley that is distilled and then aged in new charred oak barrels for at least five years. It carries aromas of toasty oak, spicy rye, citrus, pineapple, caramel, cinnamon, tangy cherry and menthol. The palate shows the aromas in a mild evolution of flavors that is initially sweet, with hints of fruit and builds to sapid oak nuance with vanilla, spice and caramel leading all the way through. The finish gently dawdles while quietly revealing roasted nuts, fennel, sassafras and camphor.
-		</p>
-
+		
 		<p>
 			To help Megan raise money for training expenses, we will raffle off a $100 Olde Blind Dog gift card.  Buy a raffle ticket and get $4 draft pints and 20 percent off appetizers during the send-off party
 		</p>
