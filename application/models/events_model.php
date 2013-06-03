@@ -23,29 +23,30 @@ class Events_model extends CI_Model {
 
     }
 
-    public function create_event($title, $description, $date) {
+    public function create_event($title, $location, $description, $date) {
 
         $mysqldate = date( 'Y-m-d H:i:s', strtotime($date) );
 
         $sql = "INSERT INTO `events`
-                (`title`, `description`, `date`)
+                (`title`,`location`, `description`, `date`)
                 VALUES
                 (?, ?, ?)";
-        $this->db->query($sql, array($title, $description, $mysqldate));
+        $this->db->query($sql, array($title, $location, $description, $mysqldate));
 
     }
 
-    public function update_event($title, $description, $date, $id) {
+    public function update_event($title, $location, $description, $date, $id) {
 
         $mysqldate = date( 'Y-m-d H:i:s', strtotime($date) );
 
         $sql = "UPDATE `events`
                 SET
                 `title` = ?,
+                `location` = ?,
                 `description` = ?,
                 `date` = ?
                 WHERE `id` = ?";
-        $this->db->query($sql, array($title, $description, $mysqldate, $id));
+        $this->db->query($sql, array($title,$location ,$description, $mysqldate, $id));
 
     }
 

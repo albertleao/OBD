@@ -128,6 +128,7 @@ class Admin extends CI_Controller {
 			$this->load->library("form_validation"); 
 
 			$this->form_validation->set_rules("title", "Event Title", "");
+			$this->form_validation->set_rules("location", "Location","");
 			$this->form_validation->set_rules("description", "Event Description", "");
 			$this->form_validation->set_rules("date", "Event Date", "");
 			$this->form_validation->set_rules("current_event", "Current Event", "");
@@ -135,6 +136,7 @@ class Admin extends CI_Controller {
 			if($this->form_validation->run()){
 
 				$title = $this->input->post("title");
+				$location = $this->input->post("location");
 				$description = $this->input->post("description");
 				$date = $this->input->post("date");
 				$id = $this->input->post("current_event");
@@ -143,14 +145,14 @@ class Admin extends CI_Controller {
 
 				if($id){
 
-					$this->events_model->update_event($title, $description, $date, $id);
+					$this->events_model->update_event($title, $location, $description, $date, $id);
 					redirect("/admin/events");
 
 				}
 
 				else {
 
-					$this->events_model->create_event($title, $description, $date);
+					$this->events_model->create_event($title, $location, $description, $date);
 					redirect("/admin/events");
 					
 				}

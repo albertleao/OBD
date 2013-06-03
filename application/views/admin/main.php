@@ -12,6 +12,8 @@
     <br />
     <input type="text" name="username">
 
+    <br />
+
     <label for="username">
       Admin Password:
     </label>
