@@ -30,7 +30,7 @@ class Events_model extends CI_Model {
         $sql = "INSERT INTO `events`
                 (`title`,`location`, `description`, `date`)
                 VALUES
-                (?, ?, ?)";
+                (?, ?, ?, ?)";
         $this->db->query($sql, array($title, $location, $description, $mysqldate));
 
     }
