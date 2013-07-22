@@ -77,7 +77,7 @@ class Apply_hire extends CI_Controller {
 
 		$this->email->from('apply@oldeblinddog.com');
 
-		$this->email->to('info@oldeblinddog.com');
+		$this->email->to('gskokoszka@gmail.com');
 
 		$this->email->subject($name);
 
