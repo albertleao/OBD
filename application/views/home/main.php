@@ -1,7 +1,7 @@
 <div class="grid_4" id="obd_main_times">
   <a class="main_times_type">
     Contact us: <br />
-    info@oldeblinddog.com
+    gkokoszka@oldeblinddog.com
   </p>
   <a id="p_title">Connect With Us!</a><br />
   <a href="https://www.facebook.com/oldeblinddog">
